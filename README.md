@@ -8,6 +8,16 @@
 
 This project implements a **Real-Time Number Plate Detection System** using **YOLOv7**, a state-of-the-art object detection algorithm. The system is designed to identify and recognize vehicle license plates from live video streams or images captured by surveillance cameras in urban environments. By leveraging deep learning techniques, this project aims to enhance traffic monitoring, law enforcement, and security systems, with applications in **traffic management**, **toll collection**, **automated parking systems**, and more.
 
+Project Structure Overview
+LicensePlateDetection
+
+- data/ - Folder containing datasets for training and testing.
+- models/ - Folder for storing the YOLOv7 model weights.
+- utils/ - Folder containing utility scripts for preprocessing, evaluation, etc.
+- main.py - Main script for running real-time detection.
+- train.py - Script for model training and fine-tuning.
+- requirements.txt - Dependencies for the project.
+
 ### Features
 - Real-time license plate detection using YOLOv7
 - High detection accuracy via fine-tuning on a custom dataset
